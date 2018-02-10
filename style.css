@@ -7,16 +7,91 @@ body, html {
     height: 100%;
 }
 
-.bg { 
-    background-image: url("/assets/images/monkees.jpg");
+.bg-logo { 
+    height: 100%;
+    background: url('/assets/images/monkees.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
+
 
 .navbar-default {
     margin: 0;
 }
 
+
+.uppercase {
+    text-transform: uppercase
+}
+
+/*.....................................Special Paddings/Margins/Text*/
+
+
+
+
+/*.....................................Footer*/
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+.copyright {
+    color: #fafafa;
+    text-align: left;
+    font-size: 12px;
+    margin: 45px 31px 0px 0px;
+    position: left;
+}
+
+.social-links {
+    padding-bottom: 0px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+     background: #e84610;
+}
+
+#footer-details {
+    margin: 0px;
+}
+
+
+@media (min-width: 992px) {
+.section-column {
+    padding: 0 30px 30px;
+    float: none;
+    display: table-cell;
+}
+
+.center-form {
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+}
+}
