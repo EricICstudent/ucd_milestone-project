@@ -9,11 +9,11 @@ body, html {
 
 .bg { 
     background-image: url("/assets/images/monkees.jpg");
-    height: 100%; 
-    background-position: center;
-    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    padding: 0;
+    display: flex;
 }
 
 .navbar-default {
